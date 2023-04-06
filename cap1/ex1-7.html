@@ -1,0 +1,10 @@
+<script>
+    //valor do jantar R$: 80.00
+    //taxa da garçom R$: 10% OU 8.00
+    // TOTAL A PAGAR R$: 88.00
+
+    const jantar = Number(prompt("valor do jantar"))
+    const garçom = jantar + 8.00
+    const total = jantar + garçom 
+    alert(`Taxa Garçom R$: ${garçom.tofixed(2)}\nTotal R$: ${total.tofixed(2)}`)
+</script>
